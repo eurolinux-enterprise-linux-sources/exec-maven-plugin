@@ -1,6 +1,6 @@
 Name:           exec-maven-plugin
 Version:        1.2.1
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Exec Maven Plugin
 
 Group:          Development/Libraries
@@ -57,6 +57,9 @@ cp -p %{SOURCE1} .
 %doc LICENSE.txt LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2.1-13
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.2.1-12
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
